@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "lowgular-ecom": {
+      "hosting": {
+        "lowgular-ecommerce-example": [
+          "lowgular-ecom"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "lowgular-ecom"
+  }
+}

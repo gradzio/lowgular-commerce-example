@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "lowgular-ecommerce-example:build:production",
+            "firebaseProject": "lowgular-ecom",
+            "firebaseHostingSite": "lowgular-ecom"
+          }
         }
       }
     }
