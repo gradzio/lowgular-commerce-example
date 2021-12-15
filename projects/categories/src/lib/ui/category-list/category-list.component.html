@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let item of categories$ | async" class="p-3 hover:bg-blue-600 hover:text-blue-200" [routerLink]="item.id">
+
+      <div>
+        {{item.name}}
+      </div>
+
+  </li>
+</ul>

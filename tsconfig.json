@@ -9,6 +9,20 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+			"@lowgular/categories": ["projects/categories/src/public-api"],
+      "@lowgular/messages": [
+        "projects/messages/src/public-api"
+      ],
+      "categories": [
+        "dist/categories/categories",
+        "dist/categories"
+      ],
+      "messages": [
+        "dist/messages/messages",
+        "dist/messages"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,

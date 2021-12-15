@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
+import { PagesModule } from './pages/pages.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AngularFireModule } from '@angular/fire/compat';
     RouterModule,
     CommonModule,
     AngularFireModule.initializeApp(environment.firebase),
+    PagesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
